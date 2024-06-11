@@ -3,6 +3,10 @@
 **Author:** Alex Hanes  
 **Date:** June 11, 2024 (T)  
 
+**Question:** Does this change get added to the `origin/master` branch or a local branch? 
+> `git status`  
+> 
+
 
 This is a test repository to see how you create a `git` project.  
 # Steps 
@@ -85,7 +89,7 @@ because we already did this (essentially). In the command line, type in the fift
 
 Now, we can call the last line, which pushes content from our local repository into our remote repository. 
 > The `-u` flag says *save these settings*  
- 
+
 
 
 

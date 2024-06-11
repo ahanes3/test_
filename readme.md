@@ -52,6 +52,17 @@ I will do this in the `branch-first` branch:
 
 `git merge master`  
 
+Finally, once this is done, I will navigate back to the `master` branch:  
+
+`git checkout master`  
+
+Then merge the `branch-first` branch with the `master` branch (if I am happy with it):  
+
+`git merge branch-first`  
+
+Now, I should see two files when I type `ls`: 
+- `readme.md` 
+- `main.py` 
 
 
 

@@ -83,6 +83,8 @@ because we already did this (essentially). In the command line, type in the fift
 - This steps creates a **remote** to your local repository called `origin` that has `<this-url>` 
 - When we use `origin` later, we are just referencing the URL. 
 
+Now, we can call the last line, which pushes content from our local repository into our remote repository. 
+> The `-u` flag says *save these settings*  
  
 
 

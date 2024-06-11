@@ -65,6 +65,26 @@ Now, I should see two files when I type `ls`:
 - `main.py` 
 
 
+# Creating a Remote Repository and Uploading A Local Repository 
+
+On GitHub, create a new repository called `test_` but do **not** add any readm files. This should prompt you to a **Quick Set-up** page.  
+
+Now, we can skip the first four lines of this: 
+```bash 
+echo "# test_" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ahanes3/test_.git
+git push -u origin main
+``` 
+because we already did this (essentially). In the command line, type in the fifth line. 
+- This steps creates a **remote** to your local repository called `origin` that has `<this-url>` 
+- When we use `origin` later, we are just referencing the URL. 
+
+ 
+
 
 
 # Terms 

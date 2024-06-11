@@ -5,7 +5,8 @@
 
 **Question:** Does this change get added to the `origin/master` branch or a local branch? 
 > `git status`  
-> 
+> It does not say which branch I am in, but if you type `git checkout <TAB>`, you will see there is a `master` (local) and `origin/master` (remote) repository.  
+> **Note!** The edits are getting made in `master` (local).  
 
 
 This is a test repository to see how you create a `git` project.  

@@ -46,6 +46,14 @@ This is a test repository to see how you create a `git` project.
 To go back to the master branch: 
 `git checkout master`  
 
+We added some documentation notes to the `readme.md` file in the `master` branch **after** we made the `branch-first` branch. When we navigated to the `branch-first` branch, these changes were not reflected in the `readme.md` file. Likewise, when we initially made the `branch-first` branch, the `readme.md` file was updated and a `main.py` file was created, but these changes were not reflected in the `master` branch. Now, we need to merge all changes.  
+
+I will do this in the `branch-first` branch:  
+
+`git merge master`  
+
+
+
 
 
 # Terms 

@@ -1,5 +1,9 @@
 # Test Git Repository 
 
+**Author:** Alex Hanes  
+**Date:** June 11, 2024 (T)  
+
+
 This is a test repository to see how you create a `git` project.  
 # Steps 
 

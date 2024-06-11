@@ -38,8 +38,14 @@ This is a test repository to see how you create a `git` project.
 
 
 
-# New section 
-...
+# Git Branch: Make Changes to Repository without Modifying the Main Branch 
+
+`git checkout -b "<branch-name>"` 
+> TBD.  
+
+To go back to the master branch: 
+`git checkout master`  
+
 
 
 # Terms 
